@@ -29,7 +29,6 @@ public class FloatDetail {
         //可以判定相等
          if(num1 == num2) {
             System.out.println("相等");
-            
         }
     }
 }
