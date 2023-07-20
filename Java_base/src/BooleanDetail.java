@@ -1,5 +1,5 @@
 //简单展示boolean变量类型使用
-//boolean[1]
+//boolean[1] 不可以用0或1代替
 public class BooleanDetail {
     public static void main(String[] args) {
         boolean isPass = false;
