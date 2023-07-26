@@ -9,7 +9,12 @@ public class Input {
         Scanner myScanner = new Scanner(System.in);
         System.out.println("请输入姓名：");
         String name = myScanner.next();
-        System.out.println(name);
+        System.out.println("请输入年龄:");
+        int age = myScanner.nextInt();
+        System.out.println("请输入薪水：");
+        Double sal = myScanner.nextDouble();
+        System.out.println("人的信息如下：");
+        System.out.println("姓名=" + name + " 年龄=" + age + " 薪水=" + sal);
         myScanner.close();
     }
 }
