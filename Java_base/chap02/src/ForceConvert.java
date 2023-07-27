@@ -9,7 +9,7 @@ public class ForceConvert {
         System.out.println("b1=" + b1);//-48 造成内存溢出
 
         //强转符号只对最近的操作数有效，使用小括号提升优先级
-        //int x = (int)10*305+6*1.5;编译错误：double -> int
+        //int x = (int)10*3.5+6*1.5;编译错误：double -> int
         int y = (int)(10*3.5+6*1.5);
         System.out.println(y);//(int)44.0 -> 44
 
