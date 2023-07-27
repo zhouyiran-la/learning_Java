@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// 双分支
 public class If02 {
     public static void main(String[] args) {
 
