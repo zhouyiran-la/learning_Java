@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+// 单分支
 public class If01 {
     public static void main(String[] args) {
         Scanner myScanner = new Scanner(System.in);
