@@ -16,11 +16,13 @@ public class Break {
         label1:
         for(int i = 0; i < 10; i++) {
         //label2:
-            for(int j = 0; j < 10; j++)
-            if( i == 3) {
+            for(int j = 0; j < 10; j++) {
+                 if( i == 3) {
                 break label1; // 直接跳出最外层循环
+                }
+                System.out.println("i=" + i);
             }
-            System.out.println("i=" + i);
+           
         }
     }
 }
