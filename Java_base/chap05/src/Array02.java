@@ -7,7 +7,7 @@
  *                数组名 = new 数据类型[大小];
  * eg. int a[]; a = new int[5];
  *     int[] a; a = new int[5];
- * 
+ * 3) 静态初始化 见Array01.java
  */
 import java.util.Scanner;
 
@@ -16,6 +16,10 @@ public class Array02 {
 
         Scanner myScanner = new Scanner(System.in);
         double[] scores = new double[5];
+
+        // 先声明后使用
+        // double[] scores2;
+        // scores2 = new double[5];
 
         for(int i = 0; i < scores.length; i++) {
             System.out.println("请输入第" + (i+1) + "个元素值：");
