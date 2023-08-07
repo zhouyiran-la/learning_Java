@@ -7,6 +7,8 @@
 
 public class Object01 {
     public static void main(String[] args) {
+        // cat1 是对象引用
+        // new Cat() 是真正的对象
         Cat cat1 = new Cat();
         cat1.name = "小白";
         cat1.age = 3;
@@ -18,13 +20,14 @@ public class Object01 {
 
         System.out.println("第一只猫信息" + cat1.name + " " + cat1.age + " " + cat1.color);
         System.out.println("第二只猫信息" + cat2.name + " " + cat2.age + " " + cat2.color);
-        
+
     }
 }
 
 
 
 class Cat {
+    // 属性 = 成员变量 = field(字段)
     String name;
     int age;
     String color;
