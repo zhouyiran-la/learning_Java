@@ -21,4 +21,34 @@ class Person {
     String name;
     double sal;
     boolean isPass;
+
+    public void speak() {
+        System.out.println("我是一个好人");
+    }
+
+    // cal01成员方法，计算 1 + ... + 1000 的值
+    public void cal01() {
+
+        int res = 0;
+        for(int i = 1; i <= 1000; i++) {
+            res += i;
+        }
+        System.out.println("res=" + res);
+        
+    }
+
+    // cal02成员方法，加入形参n, 计算 1 + ... + n 的值
+    public void cal02(int n) {
+        int res = 0;
+        for(int i = 1; i <= n; i++) {
+            res += i;
+        }
+        System.out.println("res=" + res);
+    }
+
+    // getSum成员方法，加入两个形参num1和num2，计算num1和num2的和
+    public int getSum(int num1, int num2) {
+        int res = num1 + num2;
+        return res;
+    }
 }
