@@ -13,6 +13,7 @@
 public class MethodDetail01 {
     public static void main(String[] args) {
 
+        // AA类--MethodDetail01.java
         AA a = new AA();
         int[] res = a.getSumAndSub(1, 4);
         System.out.println("和=" + res[0]);
@@ -58,5 +59,14 @@ class AA {
             }
             System.out.print("\n");
         }
+    }
+
+    public void swap(int a, int b) {
+
+        System.out.println("交换前：" + "a=" + a + " b=" + b);
+        int tmp = a;
+        a = b;
+        b = tmp;
+        System.out.println("交换后：" + "a=" + a + " b=" + b);
     }
 }
