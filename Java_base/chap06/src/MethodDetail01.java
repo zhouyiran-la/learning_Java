@@ -10,7 +10,7 @@
  * (4) 方法不能嵌套定义（有别于Python）
  */
 
-public class MethodDetail {
+public class MethodDetail01 {
     public static void main(String[] args) {
 
         AA a = new AA();
