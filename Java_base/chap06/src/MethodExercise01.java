@@ -4,7 +4,7 @@
  * (2) 根据行、列、字符打印对应行和列数的字符
  */
 
-public class MethodExercise {
+public class MethodExercise01 {
     public static void main(String[] args) {
 
         AA a = new AA();
