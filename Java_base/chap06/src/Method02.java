@@ -23,4 +23,12 @@ class MyTools {
         }
     }
 
+    public Person copyPerson(Person p) {
+        Person newPerson = new Person();
+        newPerson.age = p.age;
+        newPerson.name = p.name;
+        return newPerson;
+    }
+
 }
+ 
