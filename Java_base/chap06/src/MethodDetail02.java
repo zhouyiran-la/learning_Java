@@ -3,6 +3,7 @@
  * (5) 同一个类中方法可以直接调用
  * (6) 跨类方法调用需要通过对象名:对象名.方法名(与访问修饰符相关)
  */
+
 public class MethodDetail02 {
 
     public static void main(String[] args) {
@@ -34,5 +35,20 @@ class B {
 
     public void hi() {
         System.out.println("执行B类中的hi()方法");
+    }
+
+    public void test100(int[] arr) {
+        
+        arr[0] = 200;
+
+        System.out.println("test100arr数组");
+        for(int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i] + " ");
+        }
+        System.out.print("\n");
+    }
+
+    public void test200(Person p) {
+        p = null;
     }
 }
