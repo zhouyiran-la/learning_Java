@@ -1,6 +1,6 @@
 public class Object03 {
     public static void main(String[] args) {
-        // Person类之前定义过
+        // Person类--PropertiesDetail.java
         Person p1 = new Person();
         p1.age = 10;
         p1.name = "小明";
