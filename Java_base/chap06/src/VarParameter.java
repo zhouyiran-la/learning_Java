@@ -27,7 +27,7 @@ class VarParameterMethod {
     /**
      * 可变参数使用
      * 1. int... 表示可变参数.
-     * 2. 使用可变参数可以党组数组来使用.
+     * 2. 使用可变参数可以当做数组来使用.
      * @param nums
      * @return 所有参数和
      */
@@ -40,6 +40,14 @@ class VarParameterMethod {
             sum += nums[i];
         }
         return sum;
+    }
+
+    public String showScore(String name, double... scores) {
+        double totalScore = 0;
+        for(int i = 0; i < scores.length; i++) {
+            totalScore += scores[i];
+        }
+        return name + scores.length + "门成绩总分=" + totalScore;
     }
 }
 
