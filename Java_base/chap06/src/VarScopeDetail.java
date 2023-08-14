@@ -14,17 +14,33 @@ public class VarScopeDetail {
         VarScopeDetailPerson p1 = new VarScopeDetailPerson();
         p1.say();
 
+        VarScopeDetailPerson2 p2 = new VarScopeDetailPerson2();
+        p2.test();
+        p2.test2(p1);
+
     }
     
 }
 
 class VarScopeDetailPerson {
 
+    // private int age = 20;
     String name = "Jack";
 
     public void say() {
 
         String name = "King";
         System.out.println("say: name=" + name);// King
+    }
+}
+
+class VarScopeDetailPerson2 {
+
+    public void test() {
+        VarScopeDetailPerson p1 = new VarScopeDetailPerson();
+        System.out.println(p1.name);
+    }
+    public void test2(VarScopeDetailPerson p1) {
+        System.out.println(p1.name);
     }
 }
