@@ -1,8 +1,12 @@
 public class This {
     public static void main(String[] args) {
 
-        ThisDog dog = new ThisDog("大壮", 10);
-        System.out.println(dog.name + " " + dog.age);
+        ThisDog dog1 = new ThisDog("大壮", 10);
+        dog1.info();
+        System.out.println("dog1 hashCode=" + dog1.hashCode());
+        ThisDog dog2 = new ThisDog("大黄", 3);
+        System.out.println("dog2 hashCode=" + dog2.hashCode());
+        dog2.info();
     }
 }
 
@@ -25,8 +29,7 @@ class ThisDog {
     //     age = Age;
     // }
 
-    // 利用this关键字
-
+    // 利用this关键字，this代表当前对象
     public ThisDog(String Name, int Age) {
 
         this.name = Name;
@@ -35,6 +38,6 @@ class ThisDog {
 
 
     public void info() {
-        System.out.println(name + "\t" + age + "\t");
+        System.out.println(this.name + "\t" + this.age + "\t" + "当前对象的hashCode是" + this.hashCode());
     }
 }
