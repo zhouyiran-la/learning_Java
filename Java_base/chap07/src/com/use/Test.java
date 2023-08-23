@@ -14,7 +14,7 @@ java.io.*：IO流包
 package com.use;
 
 import com.xiaoqiang.Dog;
-// 同名类无法同时引入
+// 同名类无法同时引入.
 // import com.xiaoming.Dog;
 
 public class Test {
@@ -22,7 +22,7 @@ public class Test {
 
         Dog dog = new Dog();
         System.out.println(dog);
-        // 用包名区分同名类
+        // 用包名区分同名类.
         com.xiaoming.Dog dog1 = new com.xiaoming.Dog();
         System.out.println(dog1);
 

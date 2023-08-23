@@ -10,7 +10,7 @@ package com.javabase.pkg;
 import java.util.Arrays;
 
 /*
-使用系统自带Arrays完成数组排序
+使用系统自带Arrays完成数组排序.
  */
 public class Import {
     public static void main(String[] args) {
