@@ -1,9 +1,17 @@
 package com.javabase.extend_;
 
 public class Sub extends Base{
-
     public Sub() {
-        System.out.println("sub()...");
+        // 隐藏语句: 默认调用父类无参构造器（如果有的话）
+        // super();
+
+        super("Jack", 20);
+        System.out.println("Sub()...");
+    }
+
+    public Sub(String name) {
+        super("Jack", 20);
+        System.out.println("Sub(String name)...");
     }
 
     public void sayOk() {

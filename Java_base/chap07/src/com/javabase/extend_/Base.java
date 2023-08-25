@@ -7,9 +7,14 @@ public class Base {
     int n3 = 300;
     private int n4 = 400;
 
-    // 无参构造器
-    public Base() {
-        System.out.println("base()...");
+    // 父类无参构造器
+//    public Base() {
+//        System.out.println("base()...");
+//    }
+
+    // 父类有参构造器
+    public Base(String name, int age) {
+        System.out.println("Base(String name, int age)...");
     }
 
     public int getN4() {
