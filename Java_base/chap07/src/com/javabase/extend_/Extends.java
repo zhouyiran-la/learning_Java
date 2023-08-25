@@ -1,6 +1,11 @@
 package com.javabase.extend_;
 /*
 继承的核心功能：提高代码复用性
+
+涉及文件：
+Extends.java
+Pupil.java
+Student.java
  */
 public class Extends {
     public static void main(String[] args) {
