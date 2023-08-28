@@ -6,6 +6,8 @@ public class Sub extends Base{
         // super();
 
         super("Jack", 20);
+        // super与this不能共存
+        // this(“zhouyiran”);
         System.out.println("Sub()...");
     }
 

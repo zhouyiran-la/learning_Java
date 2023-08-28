@@ -1,6 +1,6 @@
 package com.javabase.extend_;
 
-public class Base {
+public class Base extends TopBase{
 
     public int n1 = 100;
     protected int n2 = 200;
@@ -14,6 +14,7 @@ public class Base {
 
     // 父类有参构造器
     public Base(String name, int age) {
+
         System.out.println("Base(String name, int age)...");
     }
 
