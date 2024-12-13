@@ -10,7 +10,7 @@ public class InterfacePoly {
         IF if01 = new Monster();
         if01 = new Car();
         // 接口多态数组
-        USBinterface[] USBinterfaces = new USBinterface[2];
+        interface_.USBinterface[] USBinterfaces = new USBinterface[2];
         USBinterfaces[0] = new Phone();
         USBinterfaces[1] = new Camera();
         for (int i = 0; i < USBinterfaces.length; i++) {

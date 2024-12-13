@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.Map</OriginalElement>
+  <nodes>
+    <node x="377.68125000000003" y="310.0">java.util.HashMap.TreeNode</node>
+    <node x="423.365625" y="-14.0">java.util.Map</node>
+    <node x="763.740625" y="66.0">java.util.TreeMap</node>
+    <node x="206.99062500000002" y="148.0">java.util.HashMap.Node</node>
+    <node x="440.79687500000006" y="66.0">java.util.HashMap</node>
+    <node x="456.05625000000003" y="230.0">java.util.LinkedHashMap.Entry</node>
+    <node x="508.990625" y="148.0">java.util.HashMap.KeySet</node>
+    <node x="372.990625" y="148.0">java.util.HashMap.EntrySet</node>
+    <node x="69.0" y="66.0">java.util.Map.Entry</node>
+    <node x="633.990625" y="148.0">java.util.LinkedHashMap</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.HashMap.TreeNode" target="java.util.LinkedHashMap.Entry" relationship="GENERALIZATION">
+      <point x="45.5" y="-14.0" />
+      <point x="514.1812500000001" y="284.0" />
+      <point x="528.5562500000001" y="284.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.HashMap.Node" target="java.util.Map.Entry" relationship="REALIZATION">
+      <point x="-36.5" y="-14.0" />
+      <point x="243.49062500000002" y="116.0" />
+      <point x="141.5" y="116.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.HashMap.TreeNode" target="java.util.HashMap" relationship="INNER_CLASS">
+      <point x="-45.5" y="-14.0" />
+      <point x="423.18125000000003" y="284.0" />
+      <point x="193.36562500000002" y="284.0" />
+      <point x="193.36562500000002" y="126.0" />
+      <point x="373.740625" y="126.0" />
+      <point x="373.740625" y="116.0" />
+      <point x="485.04687500000006" y="116.0" />
+      <point x="-44.25" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedHashMap" target="java.util.HashMap" relationship="GENERALIZATION">
+      <point x="-57.0" y="-14.0" />
+      <point x="690.990625" y="126.0" />
+      <point x="573.546875" y="126.0" />
+      <point x="44.25" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedHashMap.Entry" target="java.util.LinkedHashMap" relationship="INNER_CLASS">
+      <point x="36.25" y="-14.0" />
+      <point x="564.8062500000001" y="203.0" />
+      <point x="747.990625" y="203.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.TreeMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="850.740625" y="45.0" />
+      <point x="753.240625" y="45.0" />
+      <point x="753.240625" y="35.0" />
+      <point x="526.865625" y="35.0" />
+      <point x="34.5" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedHashMap.Entry" target="java.util.HashMap.Node" relationship="GENERALIZATION">
+      <point x="-36.25" y="-14.0" />
+      <point x="492.30625000000003" y="203.0" />
+      <point x="279.990625" y="203.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="java.util.HashMap.Node" target="java.util.HashMap" relationship="INNER_CLASS">
+      <point x="36.5" y="-14.0" />
+      <point x="316.490625" y="126.0" />
+      <point x="373.740625" y="126.0" />
+      <point x="373.740625" y="116.0" />
+      <point x="485.04687500000006" y="116.0" />
+      <point x="-44.25" y="14.0" />
+    </edge>
+    <edge source="java.util.HashMap.KeySet" target="java.util.HashMap" relationship="INNER_CLASS">
+      <point x="0.0" y="-14.0" />
+      <point x="561.490625" y="126.0" />
+      <point x="373.740625" y="126.0" />
+      <point x="373.740625" y="116.0" />
+      <point x="485.04687500000006" y="116.0" />
+      <point x="-44.25" y="14.0" />
+    </edge>
+    <edge source="java.util.LinkedHashMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="57.0" y="-14.0" />
+      <point x="804.990625" y="126.0" />
+      <point x="753.240625" y="126.0" />
+      <point x="753.240625" y="35.0" />
+      <point x="526.865625" y="35.0" />
+      <point x="34.5" y="14.0" />
+    </edge>
+    <edge source="java.util.HashMap" target="java.util.Map" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="529.296875" y="45.0" />
+      <point x="753.240625" y="45.0" />
+      <point x="753.240625" y="35.0" />
+      <point x="526.865625" y="35.0" />
+      <point x="34.5" y="14.0" />
+    </edge>
+    <edge source="java.util.Map.Entry" target="java.util.Map" relationship="INNER_CLASS">
+      <point x="0.0" y="-14.0" />
+      <point x="141.5" y="45.0" />
+      <point x="457.865625" y="45.0" />
+      <point x="-34.5" y="14.0" />
+    </edge>
+    <edge source="java.util.HashMap.EntrySet" target="java.util.HashMap" relationship="INNER_CLASS">
+      <point x="0.0" y="-14.0" />
+      <point x="430.990625" y="126.0" />
+      <point x="373.740625" y="126.0" />
+      <point x="373.740625" y="116.0" />
+      <point x="485.04687500000006" y="116.0" />
+      <point x="-44.25" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7649043869516311" showDependencies="false" x="513.4999999999999" y="171.99999999999977" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
